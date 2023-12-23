@@ -8,7 +8,8 @@ public class Main{
 
   public static void f2(){
     String[] fruits = {"orange","grape","apple","lemon","banana"};
-    Arrays.sort(fruits);
+    // Arrays.sort(fruits);
+    Arrays.sort(fruits, Collections.reverseOrder());
     System.out.println("After Sorting: "+Arrays.toString(fruits));
   }
 
@@ -21,9 +22,9 @@ public class Main{
   public static void main(String[] args){
     f2();
 
-    //Compariosns
-    String s1="abc";
-    String s2 = "abe";
-    System.out.println(s1.compareTo(s2));
+    // //Compariosns
+    // String s1="abc";
+    // String s2 = "abe";
+    // System.out.println(s1.compareTo(s2));
   }
 }
