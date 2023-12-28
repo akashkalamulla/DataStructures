@@ -1,8 +1,9 @@
-package DataStrucutures.Arrays;
+package DataStrucutures.Arrays.SingleDimensionArray;
 
 public class SingleDimensionArray {
   int arr[] = null;
 
+  //instilization the elements to array
   public SingleDimensionArray(int sizeOfArray) {
     arr = new int[sizeOfArray];
     for (int i=0; i<arr.length; i++) {
