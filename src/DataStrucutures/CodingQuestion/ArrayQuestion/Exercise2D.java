@@ -8,6 +8,8 @@ myArray2D= {{1,2,3},{4,5,6},{7,8,9}};
  
 sumDiagonalElements(myArray2D) # 15
 */
+
+
 public class Exercise2D {
   public static int sumDiagonalElements(int[][] array){
     int sum =0;
