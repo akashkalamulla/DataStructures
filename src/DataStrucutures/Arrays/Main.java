@@ -9,5 +9,9 @@ public class Main {
     intArray[2] = 3;
 
     System.out.println(Arrays.toString(intArray));
+
+    //All togther
+    String sArray[] = {"a","b","c"};
+    System.out.println(Arrays.toString(sArray));
   }
 }
