@@ -11,7 +11,7 @@ myArray = {84,85,86,87,85,90,85,83,23,45,84,1,2,0}
 firstSecond(myArray) // {90, 87}
 */
 
-public class findTopTwoScores {
+public class FindTopTwoScores {
   public static int[] findTopTwoScores(int[] array) {
     int firstHighest = Integer.MIN_VALUE;
     int secondHighest = Integer.MIN_VALUE;
