@@ -18,12 +18,13 @@ public class Main {
   // System.out.println(Arrays.deepToString(s2DArray));
 
   TwoDimensionalArray sda = new TwoDimensionalArray(4, 4);
-  // sda.insertValueInTheArray(0, 1, 1);
-  //  sda.insertValueInTheArray(0, 2, 4);
-  //   sda.insertValueInTheArray(0, 3, 6);
-  //    sda.insertValueInTheArray(0, 0, 9);
+  // sda.insertValueInTheArray(0, 1, 10);
+  //  sda.insertValueInTheArray(0, 2, 20);
+  //   sda.insertValueInTheArray(0, 3, 30);
+  //    sda.insertValueInTheArray(0, 0, 40);
 
-
+  // sda.accessCell(0, 3);
+  sda.searchingValue(20);
   // System.out.println(Arrays.deepToString(sda.arr));
   }
  
