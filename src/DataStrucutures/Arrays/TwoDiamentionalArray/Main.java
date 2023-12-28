@@ -16,6 +16,15 @@ public class Main {
 
   // String s2DArray[][] = {{"a","b"},{"c","d"}};
   // System.out.println(Arrays.deepToString(s2DArray));
+
+  TwoDimensionalArray sda = new TwoDimensionalArray(4, 4);
+  // sda.insertValueInTheArray(0, 1, 1);
+  //  sda.insertValueInTheArray(0, 2, 4);
+  //   sda.insertValueInTheArray(0, 3, 6);
+  //    sda.insertValueInTheArray(0, 0, 9);
+
+
+  // System.out.println(Arrays.deepToString(sda.arr));
   }
  
 }
