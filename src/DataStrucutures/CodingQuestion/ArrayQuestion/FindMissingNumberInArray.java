@@ -11,5 +11,15 @@ Hint:
 Use the formula (n * (n + 1)) / 2 which  calculates the sum of the first n natural numbers.
 */
 public class FindMissingNumberInArray {
-  
+  public static int findMissingNumberInArray(int[] array) {
+    int n = array.length + 1;
+    int expectedSum = (n * (n + 1)) / 2;
+    int actualSum = 0;
+
+    for (int number : array) {
+        actualSum += number;
+    }
+
+    return expectedSum - actualSum;
+}
 }
